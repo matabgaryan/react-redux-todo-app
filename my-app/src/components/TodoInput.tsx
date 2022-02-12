@@ -15,7 +15,8 @@ const TodoInput: React.FC = () => {
           </div>
           <input
             type="text"
-            className="form-control text-capitalize"
+            autoFocus={true}
+            className="form-control text-capitalize todo-input"
             placeholder="add a todo item"
             name="todo"
             value={text}

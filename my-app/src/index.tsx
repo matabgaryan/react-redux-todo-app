@@ -28,3 +28,9 @@ function Index() {
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<Index />, rootElement);
+
+// @ts-ignore
+if (window.Cypress) {
+  // @ts-ignore
+  window.store = store
+}
