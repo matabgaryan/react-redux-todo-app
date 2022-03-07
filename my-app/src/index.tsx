@@ -12,6 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const store = createStore(RootReducer);
 
 function Index() {
+
   return (
     <Provider store={store}>
       <div className="container">
