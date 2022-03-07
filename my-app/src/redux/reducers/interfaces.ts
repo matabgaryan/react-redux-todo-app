@@ -16,6 +16,11 @@ export interface ITodoActionType {
   text: string,
   id: number
 }
+export interface ITodoActionType2 {
+  type: string,
+  text: string,
+  id: number
+}
 
 export type RootState = ReturnType<typeof rootReducer>
 
