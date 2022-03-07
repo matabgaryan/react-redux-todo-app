@@ -9,8 +9,10 @@ import "./styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 const store = createStore(RootReducer);
 
-function Index() {
 
+
+
+function Index() {
   return (
     <Provider store={store}>
       <div className="container">
