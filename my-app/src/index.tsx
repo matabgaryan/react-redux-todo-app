@@ -5,10 +5,8 @@ import { createStore } from "redux";
 import RootReducer from "./redux/reducers/index";
 import TodoList from "./components/TodoList";
 import TodoInput from "./components/TodoInput";
-
 import "./styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 const store = createStore(RootReducer);
 
 function Index() {
