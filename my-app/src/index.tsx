@@ -9,14 +9,18 @@ import "./styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 const store = createStore(RootReducer);
 
-function Index() {
 
+
+
+function Index() {
   return (
     <Provider store={store}>
       <div className="container">
         <div className="row">
+
           <div className="col-10 mx-auto col-md-8 mt-4">
             <TodoInput />
+            
             <TodoList />
           </div>
         </div>
